@@ -7,7 +7,7 @@ const { Pool } = pkg
 const app = express()
 
 app.use(cors())
-app.use(express.json()) // ADD THIS - needed to parse JSON request bodies
+app.use(express.json())
 
 const openDb = () => {
   const pool = new Pool({
@@ -31,7 +31,6 @@ app.get('/', (req, res) => {
   })
 })
 
-// ADD THIS - Create task endpoint
 app.post('/create', (req, res) => {
   const { task } = req.body
   
@@ -53,7 +52,6 @@ app.post('/create', (req, res) => {
   )
 })
 
-// ADD THIS - Delete task endpoint
 app.delete('/delete/:id', (req, res) => {
   const id = parseInt(req.params.id)
   
