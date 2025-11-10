@@ -742,34 +742,34 @@ database: environment === "development"
        │    Authorization: <JWT token>
        ↓
 ┌─────────────┐
-│ Auth       │  2. Verify JWT token
-│ Middleware │
+│ Auth        │  2. Verify JWT token
+│ Middleware  │
 └──────┬──────┘
        │ 3. Token valid? → Continue
        │    Token invalid? → 401 Error
        ↓
 ┌─────────────┐
-│ Controller │  4. Validate description
+│ Controller  │  4. Validate description
 └──────┬──────┘  5. Call model
        │
        ↓
 ┌─────────────┐
-│   Model    │  6. INSERT INTO task
+│   Model     │  6. INSERT INTO task
 └──────┬──────┘
        │
        ↓
 ┌─────────────┐
-│ PostgreSQL │  7. Return new task
+│ PostgreSQL  │  7. Return new task
 └──────┬──────┘
        │
        ↓
 ┌─────────────┐
-│ Controller │  8. Format response
+│ Controller  │  8. Format response
 └──────┬──────┘
        │
        ↓
 ┌─────────────┐
-│   Browser  │  9. Update UI with new task
+│   Browser   │  9. Update UI with new task
 └─────────────┘
 ```
 
