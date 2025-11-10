@@ -297,7 +297,7 @@ todo-app/
     └── public/              # Static assets
 ```
 
-For detailed structure, see [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)
+For detailed structure, see [project_structure.md](./project_structure.md)
 
 ## 📚 API Documentation
 
