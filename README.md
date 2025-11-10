@@ -6,6 +6,9 @@ A full-stack web application for managing tasks with user authentication. Built 
 ![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-green)
 ![React](https://img.shields.io/badge/react-18.x-blue)
 
+## 📷 picture of working front end
+![Frontend picture](Frontend.png) 
+
 ## 📋 Table of Contents
 
 - [Features](#features)
