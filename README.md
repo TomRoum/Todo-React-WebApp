@@ -454,7 +454,7 @@ User ← JWT Token ← Password Verify ← Login
 Protected Routes ← Token Validation ← Middleware
 ```
 
-For detailed architecture decisions, see [ARCHITECTURE.md](./ARCHITECTURE.md)
+For detailed architecture decisions, see [architecture_decisions.md](./architecture_decisions.md)
 
 ## 🤝 Contributing
 
